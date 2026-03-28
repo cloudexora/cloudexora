@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="container mx-auto px-6">
       <div className="flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
-          <span className="font-display text-lg font-bold gradient-text">Deepak Tech Solutions</span>
+          <span className="font-display text-lg font-bold gradient-text">CloudExora</span>
           <p className="text-muted-foreground text-sm mt-1">Building Future-Ready Digital Solutions</p>
         </div>
         <div className="flex items-center gap-6">
@@ -21,7 +21,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="text-center mt-8 text-muted-foreground text-xs">
-        © {new Date().getFullYear()} Deepak Tech Solutions. All rights reserved.
+        © {new Date().getFullYear()} CloudExora. All rights reserved.
       </div>
     </div>
   </footer>

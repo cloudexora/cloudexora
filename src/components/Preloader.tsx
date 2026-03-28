@@ -15,7 +15,7 @@ const Preloader = ({ loading }: { loading: boolean }) => (
           className="text-center"
         >
           <div className="w-12 h-12 rounded-full border-2 border-primary/30 border-t-primary animate-spin mx-auto mb-4" />
-          <span className="font-display text-lg font-bold gradient-text">Deepak Tech Solutions</span>
+          <span className="font-display text-lg font-bold gradient-text">CloudExora</span>
         </motion.div>
       </motion.div>
     )}

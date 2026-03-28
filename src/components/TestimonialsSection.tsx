@@ -3,10 +3,10 @@ import { useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 
 const testimonials = [
-  { name: "Arjun Mehta", role: "CEO, FinStack", text: "Deepak Tech Solutions transformed our vision into a world-class fintech platform. Their technical expertise and dedication are unmatched." },
-  { name: "Priya Sharma", role: "Founder, HealthLoop", text: "The mobile app they built exceeded all expectations. Smooth UX, fast delivery, and outstanding post-launch support." },
-  { name: "Rahul Kapoor", role: "CTO, CloudNine", text: "Their cloud architecture expertise saved us 40% on infrastructure costs while improving performance tenfold." },
-  { name: "Sneha Reddy", role: "Product Lead, EduSpark", text: "Incredible attention to detail in UI/UX design. Our user engagement tripled after the redesign." },
+  { name: "Vinothkumar", role: "Junior Developer", text: "CloudExora transformed our vision into a world-class fintech platform. Their technical expertise and dedication are unmatched." },
+  { name: "SanjeevKumar", role: "Senior Developer", text: "The mobile app they built exceeded all expectations. Smooth UX, fast delivery, and outstanding post-launch support." },
+  { name: "Rahul", role: "Advance Cloth Solution", text: "Their cloud architecture expertise saved us 40% on infrastructure costs while improving performance tenfold." },
+  { name: "Deepak", role: "CEO, CloudExora", text: "Incredible attention to detail in UI/UX design. Our user engagement tripled after the redesign." },
 ];
 
 const TestimonialsSection = () => {

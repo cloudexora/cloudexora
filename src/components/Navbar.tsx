@@ -25,15 +25,22 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? "glass-card py-3 shadow-lg"
           : "bg-transparent py-5"
-      }`}
+        }`}
     >
       <div className="container mx-auto flex items-center justify-between px-6">
-        <a href="#" className="font-display text-xl font-bold gradient-text">
-          Deepak Tech Solutions
+        <a href="#" className="flex items-center gap-1">
+          <img
+            src="public/CLOUDEXORAnobackground.png"
+            alt="CloudExora Logo"
+            // className="h-8 w-auto"
+            style={{height:"70px", width:"70px"}}
+          />
+          <span className="font-display text-xl font-bold gradient-text" style={{position:"relative",left:"-20px"}}>
+            CloudExora
+          </span>
         </a>
 
         {/* Desktop */}

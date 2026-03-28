@@ -27,7 +27,7 @@ const AboutSection = () => {
             A Startup Built on <span className="gradient-text">Vision & Code</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Deepak Tech Solutions is a forward-thinking IT startup dedicated to building innovative digital products. From full-stack web apps to cloud infrastructure, we help businesses transform their ideas into powerful, scalable realities.
+            CloudExora is a forward-thinking IT startup dedicated to building innovative digital products. From full-stack web apps to cloud infrastructure, we help businesses transform their ideas into powerful, scalable realities.
           </p>
         </motion.div>
 
