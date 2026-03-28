@@ -33,11 +33,11 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-6">
         <a href="#" className="flex items-center gap-1">
           <img
-            src="public/CLOUDEXORAnobackground.png"
-            alt="CloudExora Logo"
-            // className="h-8 w-auto"
-            style={{height:"70px", width:"70px"}}
-          />
+  src="/CLOUDEXORAnobackground.png"
+  alt="CloudExora Logo"
+  style={{ height: "70px", width: "70px" }}
+/>
+         
           <span className="font-display text-xl font-bold gradient-text" style={{position:"relative",left:"-20px"}}>
             CloudExora
           </span>
