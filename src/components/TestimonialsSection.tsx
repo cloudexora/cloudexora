@@ -3,10 +3,10 @@ import { useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 
 const testimonials = [
-  { name: "Vinothkumar", role: "Junior Developer", text: "CloudExora transformed our vision into a world-class fintech platform. Their technical expertise and dedication are unmatched." },
-  { name: "SanjeevKumar", role: "Senior Developer", text: "The mobile app they built exceeded all expectations. Smooth UX, fast delivery, and outstanding post-launch support." },
-  { name: "Rahul", role: "Advance Cloth Solution", text: "Their cloud architecture expertise saved us 40% on infrastructure costs while improving performance tenfold." },
-  { name: "Deepak", role: "CEO, CloudExora", text: "Incredible attention to detail in UI/UX design. Our user engagement tripled after the redesign." },
+  { name: "Rahul Menon", role: "CTO, TechFin India", text: "CloudExora completely transformed our legacy payment infrastructure into a rapid, scalable, and secure API gateway. Their expertise in the tech stack is unmatched." },
+  { name: "Priya Sharma", role: "Head of Engineering, HealthCare+ Bangalore", text: "The team's ability to deliver a cutting-edge cross-platform wellness application within our tight deadline was spectacular. True professionals." },
+  { name: "Amitabh Desai", role: "Founder, RetailSolutions", text: "We slashed our AWS architecture bills by nearly 40% after CloudExora re-engineered our cloud deployment strategy. Their deep technical insights are highly recommended." },
+  { name: "Sneha Patel", role: "VP of Product, SaaSify Hub", text: "Amazing attention to detail in their UI/UX architecture. Our B2B platform saw a 3x increase in user engagement within a month of launch. Truly world-class talent." },
 ];
 
 const TestimonialsSection = () => {

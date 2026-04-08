@@ -31,15 +31,16 @@ const Navbar = () => {
         }`}
     >
       <div className="container mx-auto flex items-center justify-between px-6">
-        <a href="#" className="flex items-center gap-1">
-          <img
-  src="/CLOUDEXORAnobackground.png"
-  alt="CloudExora Logo"
-  style={{ height: "70px", width: "70px" }}
-/>
-         
-          <span className="font-display text-xl font-bold gradient-text" style={{position:"relative",left:"-20px"}}>
-            CloudExora
+        <a href="#" className="flex items-center gap-3 group">
+          <div className="relative flex items-center justify-center w-11 h-11 rounded-xl bg-secondary overflow-hidden border border-border group-hover:border-primary/50 group-hover:shadow-[0_0_20px_rgba(var(--primary),0.2)] transition-all duration-300">
+            <img
+              src="/CLOUDEXORAnobackground.png"
+              alt="CloudExora Logo"
+              className="object-contain w-14 h-14 scale-[1.5] group-hover:scale-[1.6] transition-transform duration-500"
+            />
+          </div>
+          <span className="font-display text-2xl font-extrabold tracking-tight text-foreground">
+            Cloud<span className="gradient-text">Exora</span>
           </span>
         </a>
 

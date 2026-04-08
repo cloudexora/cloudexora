@@ -14,8 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['"Space Grotesk"', 'sans-serif'],
-        body: ['"Inter"', 'sans-serif'],
+        display: ['"Poppins"', 'sans-serif'],
+        body: ['"Roboto"', 'sans-serif'],
+        sans: ['"Roboto"', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

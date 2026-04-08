@@ -16,11 +16,21 @@ const ContactSection = () => {
       return;
     }
     setSending(true);
+    
+    // Construct the email body
+    const subject = encodeURIComponent(`New Inquiry from ${form.name}`);
+    const body = encodeURIComponent(
+      `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`
+    );
+    
+    // Trigger the user's default email client
+    window.location.href = `mailto:cloudexoralab@gmail.com?subject=${subject}&body=${body}`;
+
     setTimeout(() => {
-      toast.success("Message sent! We'll get back to you soon.");
+      toast.success("Email client opened!");
       setForm({ name: "", email: "", message: "" });
       setSending(false);
-    }, 1200);
+    }, 500);
   };
 
   return (
