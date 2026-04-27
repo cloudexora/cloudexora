@@ -1,9 +1,6 @@
 name: Deploy React App to AWS S3 and CloudFront
 
 on:
-  pull_request:
-    branches: [main]
-
   push:
     branches: [main]
 
